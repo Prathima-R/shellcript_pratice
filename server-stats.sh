@@ -44,3 +44,24 @@ echo "------------------------"
 echo "Top 5 Processes by Memory:"
 ps -eo pid,comm,%mem --sort=-%mem | head -6
 echo "------------------------"
+
+
+
+
+Section	Command	Purpose
+OS Info	/etc/os-release or uname -a	Shows system name & version
+Uptime	uptime -p	How long system has been running
+CPU Usage	top, awk	Shows current CPU usage %
+Memory	free -m	Shows RAM usage
+Disk	df -h /	Shows disk space used/free
+Processes	ps, head	Shows top 5 CPU & memory-hungry processes
+
+
+
+
+
+
+
+
+
+
